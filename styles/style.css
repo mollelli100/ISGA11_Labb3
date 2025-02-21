@@ -1,85 +1,90 @@
-  body {
-    font-family: "Robot", sans-serif;
-    display: flex;
-  }
-  html {
-    font-size: 16px;
-  }
-  * {
-    box-sizing: border-box;
-  }
+body {
+  font-family: "Robot", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.gameArea {
+  display: flex;
+  justify-content: center;
+}
+html {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
 
-  .jumbotron {
-    background-color: #dedede;
-    padding: 1.5rem;
-    border-radius: 0.3rem;
-    margin: 0rem 0rem 1rem 0rem;
-  }
+.jumbotron {
+  background-color: #dedede;
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+  margin: 0rem 0rem 1rem 0rem;
+}
 
-  .text-center {
-    text-align: center;
-  }
+.text-center {
+  text-align: center;
+}
 
-  form {
-    width: 100%;
-    display: flex;
-    box-shadow: 10px 10px 10px 0px lightgray;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    border: solid gray 1px;
-    padding: 1rem;
-  }
-  #div-in-form {
-    width: 100%;
-  }
+form {
+  width: 100%;
+  display: flex;
+  box-shadow: 10px 10px 10px 0px lightgray;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border: solid gray 1px;
+  padding: 1rem;
+}
+#div-in-form {
+  width: 100%;
+}
 
-  input {
-    width: 100%;
-    height: 2rem;
-    background-color: white;
-    border-radius: 3px;
-  }
+input {
+  width: 100%;
+  height: 2rem;
+  background-color: white;
+  border-radius: 3px;
+}
 
-  .col {
-    padding: 0.3rem;
-  }
+.col {
+  padding: 0.3rem;
+}
 
-  #div-with-a {
-    display: flex;
-    justify-content: end;
-    margin: 1rem 0 0 1rem;
-  }
-  #div-with-a > a {
-    background-color: dodgerblue;
-    color: white;
-    padding: 0.5rem;
-    display: block;
-    width: max-content;
-    font-weight: 500;
-    border-radius: 10px;
-    text-decoration: none;
-  }
+#div-with-a {
+  display: flex;
+  justify-content: end;
+  margin: 1rem 0 0 1rem;
+}
+#div-with-a > a {
+  background-color: dodgerblue;
+  color: white;
+  padding: 0.5rem;
+  display: block;
+  width: max-content;
+  font-weight: 500;
+  border-radius: 10px;
+  text-decoration: none;
+}
 
-  input[type="text"]:focus {
-    outline: none;
-    border-color: dodgerblue;
-    box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.5);
-  }
+input[type="text"]:focus {
+  outline: none;
+  border-color: dodgerblue;
+  box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.5);
+}
 
-  aside {
-    display: none;
-  }
+aside {
+  display: none;
+}
 
-  table {
-    border-spacing: 0;
-  }
-  td {
-    width: 125px;
-    height: 125px;
-    font-size: 50;
-    border: solid black 1px;
-    text-align: center;
-  }
+table {
+  border-spacing: 0;
+}
+td {
+  width: 125px;
+  height: 125px;
+  font-size: 50;
+  border: solid black 1px;
+  text-align: center;
+}
 @media (min-width: 415px) and (max-width: 1180px) {
   aside {
     width: 30%;
@@ -99,27 +104,27 @@
   }
 }
 @media (min-width: 1181px) {
-  main{
+  main {
     width: 70%;
   }
-  aside{
+  aside {
     width: 300px;
     display: block;
   }
-  aside img{
+  aside img {
     width: 100%;
   }
-  #div-with-a > a:hover{
+  #div-with-a > a:hover {
     background-color: black;
   }
-  td{
+  td {
     width: 200px;
-    height: 200px;;
+    height: 200px;
   }
-  .col{
+  .col {
     width: 49%;
   }
-  html{
-    font-size:22px;
+  html {
+    font-size: 22px;
   }
 }

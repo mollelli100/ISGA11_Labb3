@@ -99,4 +99,19 @@
   }
 }
 @media (min-width: 1181px) {
+  main{
+    width: 70%;
+  }
+  aside{
+    width: 300px;
+  }
+  #div-with-a > a:hover{
+    background-color: #dedede;
+  }
+  .col{
+    width: 49%;
+  }
+  html{
+    font-size:22px;
+  }
 }

@@ -114,8 +114,23 @@ td {
   aside img {
     width: 100%;
   }
+  #div-in-form{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #div-with-a{
+    flex-direction: column-reverse;
+    padding: 0.3rem;
+    margin: 0;
+  }
+  #div-with-a > a{
+    background-color: white;
+    color: dodgerblue;
+    border: dodgerblue solid 1px;
+  }
   #div-with-a > a:hover {
-    background-color: black;
+    background-color: dodgerblue;
+    color: white;
   }
   td {
     width: 200px;

@@ -114,19 +114,26 @@ td {
   aside img {
     width: 100%;
   }
+  form{
+    padding: 0.5rem
+  }
   #div-in-form{
     display: flex;
     flex-wrap: wrap;
   }
+  .jumbotron{
+    padding: 0.5rem;
+  }
   #div-with-a{
     flex-direction: column-reverse;
-    padding: 0.3rem;
-    margin: 0;
+    padding: 0.2rem;
+    margin: 1rem 0 0 0;
   }
   #div-with-a > a{
     background-color: white;
     color: dodgerblue;
     border: dodgerblue solid 1px;
+    padding: 0.3rem;
   }
   #div-with-a > a:hover {
     background-color: dodgerblue;
